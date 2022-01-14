@@ -2,7 +2,7 @@
 def even_number(lst):
     for index, value in enumerate(lst):
         if index % 2 == 0:
-            return(value)
+            print(value)
             
             
 print(even_number(['me', 'you', 6, 8, 3, 33, 1, 9, 7, 5, 2]))
